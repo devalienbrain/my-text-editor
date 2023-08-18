@@ -70,7 +70,7 @@ document.getElementById('lower-upper-transform').addEventListener('click', funct
   }
 });
 
-document.getElementById('color-picker').addEventListener('click', function () {
+document.getElementById('color-picker').addEventListener('input', function () {
   // console.log(editor.value);
   editor.style.color = document.getElementById('color-picker').value;
 });
